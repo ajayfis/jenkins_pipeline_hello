@@ -16,3 +16,10 @@ node {
         echo "deploying"
     }
 }
+
+node {
+stage ('verify')
+{ 
+    echo "verified"
+}
+    }
